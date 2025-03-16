@@ -22,3 +22,11 @@ print(frame)
 # 2    Ritish   NaN              jammu
 # 3  Shivangi  19.0              jammu
 
+print(frame.isna())
+
+#output
+#    Name    Age   City
+# 0  False  False  False
+# 1  False  False  False
+# 2  False   True  False
+# 3  False  False  False
