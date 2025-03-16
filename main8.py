@@ -30,3 +30,14 @@ print(frame.isna())
 # 1  False  False  False
 # 2  False   True  False
 # 3  False  False  False
+
+print(frame.isnull()) #an allias of isna()
+
+#output
+#     Name    Age   City
+# 0  False  False  False
+# 1  False  False  False
+# 2  False   True  False
+# 3  False  False  False
+
+#Radhe Radhe
