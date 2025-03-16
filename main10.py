@@ -10,3 +10,5 @@ data={
     "Age":[19,np.nan,np.nan,19],
     "City":['Mera Dill','Kanhaji ke charan','jammu','jammu']
 }
+
+frame=pd.DataFrame(data)
