@@ -26,3 +26,18 @@ print(frame)
 frame.fillna(00,inplace=True)
 print("DataFrame after filling missing values with 0")
 print(frame)
+
+#Output:
+# Original DataFrame
+#        Name   Age               City
+# 0    Deviji  19.0          Mera Dill
+# 1    Kamesh   NaN  Kanhaji ke charan
+# 2    Ritish   NaN              jammu
+# 3  Shivangi  19.0              jammu
+# DataFrame after filling missing values with 0
+#        Name   Age               City
+# 0    Deviji  19.0          Mera Dill
+# 1    Kamesh   0.0  Kanhaji ke charan
+# 2    Ritish   0.0              jammu
+# 3  Shivangi  19.0              jammu
+
