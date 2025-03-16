@@ -12,3 +12,17 @@ data={
 }
 
 frame=pd.DataFrame(data)
+print("Original DataFrame")
+print(frame)
+
+#Output:    
+#        Name   Age               City
+# 0    Deviji  19.0          Mera Dill
+# 1    Kamesh   NaN  Kanhaji ke charan
+# 2    Ritish   NaN              jammu
+# 3  Shivangi  19.0              jammu
+
+#filling missing values with 0
+frame.fillna(00,inplace=True)
+print("DataFrame after filling missing values with 0")
+print(frame)
