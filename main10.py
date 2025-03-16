@@ -4,3 +4,9 @@
 
 import pandas as pd
 import numpy as np
+
+data={
+    "Name":['Deviji','Kamesh','Ritish','Shivangi'],
+    "Age":[19,np.nan,np.nan,19],
+    "City":['Mera Dill','Kanhaji ke charan','jammu','jammu']
+}
